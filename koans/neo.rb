@@ -49,7 +49,7 @@ def _n_
 end
 
 # Error object replacement value.
-def ___
+def __(value="FILL ME IN", value19=:mu)
   if RUBY_VERSION < "1.9"
     value
   else
